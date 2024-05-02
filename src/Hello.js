@@ -1,18 +1,18 @@
-import React from 'react'
+import React from 'react';
 import Card from './components/UI/Card';
 
 const Hello = (props) => {
-   console.log('Hello Component!');
-   console.log('props: ', props);
+  console.log('Hello Component!');
+  console.log('props: ', props);
 
   return (
-   <Card className="rectangle">
+    <Card className="rectangle">
       <div>
-         {props.children}
-         Hello React!
+        {props.children}
+        Hello React!
       </div>
-   </Card>
-  )
-}
+    </Card>
+  );
+};
 
-export default Hello
+export default Hello;
